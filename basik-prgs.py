@@ -22,7 +22,7 @@ else:
 
 
 
-#Fcatorial of a number
+#Factorial of a number
 
 num = int(input("Enter a number: "))  # Takes a number as input
 factorial = 1                         # Initializes factorial result to 1
@@ -121,5 +121,6 @@ while num > 0:                         # Loop until all digits are processed
     num //= 10                         # Removes last digit from num
 
 print("Reversed number is:", rev)      # Print result
+
 
               
