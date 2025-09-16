@@ -5,7 +5,7 @@ print("DAY 4")
 a = 3
 b = 6.78
 
-# print(a + b) 
+print(a + b) 
 
 #Type casting (forcefully changing the type)
 v = float("2") 
@@ -15,4 +15,5 @@ print(type(v)) #int or #float
 print(v + w) 
 
 g = 5
+
 g = int("4") 
