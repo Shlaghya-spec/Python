@@ -1,5 +1,5 @@
 print("DAY 7") # DATE : 30-07-2025
-#Conditional statements
+#Conditional statements 
 
 age = int(input("enter ur age : ")) 
 
@@ -115,3 +115,4 @@ else:
 
 
     
+
