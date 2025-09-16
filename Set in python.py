@@ -1,17 +1,17 @@
 print("DAY 13") # DATE : 15-09-2025  
 #Set in python
 
-# collection = {1, 2, 3.14, True, "uniso" , 4, "atlas" , "uniso" } 
+collection = {1, 2, 3.14, True, "uniso" , 4, "atlas" , "uniso" } 
 
-# print(collection)
-# print(type(collection)) 
-# print(len(collection))
+print(collection)
+print(type(collection)) 
+print(len(collection))
 
-# collection = {} #empty dict
-# print(type(collection)) 
+collection = {} #empty dict
+print(type(collection)) 
 
-# collection = set() #empty set syntax
-# print(type(collection)) 
+collection = set() #empty set syntax
+print(type(collection)) 
 
 
 #Set METHODS
@@ -71,4 +71,5 @@ print("6.INTERSECTION")
 print(set3)
 print(set4)
 print(set3.intersection(set4)) #output is 8 
+
 
