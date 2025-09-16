@@ -12,20 +12,20 @@ info = {
     "marks": 93.4
      }
 
-# print(type(info)) 
-# print(info)
+print(type(info)) 
+print(info)
 
 #accessing values through keys
-# print(info["subjects"])
-# print(info["topics"])  
-# print(info["age"])
-# print(info["marks"])
+print(info["subjects"])
+print(info["topics"])  
+print(info["age"])
+print(info["marks"])
 
 #assigning new key value pairs in dict
 
-# info["name"] = "agatha"
-# info["surname"] = "cristie"
-# print(info) #new dict created
+info["name"] = "agatha"
+info["surname"] = "cristie"
+print(info) #new dict created
 
 #nested dict
 student = {
@@ -40,4 +40,5 @@ student = {
 print(student)
 print(student["subjects"]) 
 print(student ["subjects"] ["chem"])  
+
 
