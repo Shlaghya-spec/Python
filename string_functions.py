@@ -1,25 +1,25 @@
 print("DAY 6") #DATE : 26-07-2025
 #STRING FUNCTIONS
 
-#str.endswith("---")
+#1.str.endswith("---")
 
 str1 = "I am studying python everday"
 print(str1.endswith("day")) 
 print(str1.endswith("stud")) 
 
-#str.capitalize()
+#2.str.capitalize()
 
 str2 = "i am studying consistent everday"
 yut = str2.capitalize()
 print(yut)
 
-#str.replace(old,new)
+#3.str.replace(old,new)
 
 str6 = "I am pursuing bachelor's degree for NMIET college"
 print(str6.replace("u" , "o")) 
 print(str6.replace("bachelor's" , "master's"))
 
-#str.find("--")
+#4.str.find("--")
 
 jkl = "Reading is a theraphy and a self-healing technique."
 print(jkl.find("n")) #returns the index where it is 1st occured.
@@ -27,7 +27,7 @@ print(jkl.find("o")) #-1 it says that char in not valid
 print(jkl.find(" ")) #space between words
 print(jkl.find("a"))
 
-#str.count("--")
+#5.str.count("--")
 
 win = "Work today better than yesterday's Work."
 print(win.count("Work"))
@@ -52,4 +52,5 @@ print("the original string is : " , mdh)
 print("the new string is : " , hjk) 
 
 #HackerRank practiced
+
 #answer link: https://chatgpt.com/share/6884fb5e-757c-8007-bf49-9b358a978235
