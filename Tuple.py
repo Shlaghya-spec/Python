@@ -39,11 +39,11 @@ print("sliced tuple:" , tup[1:3])
 
 #tuple methods
 
-#tup.index(el)
+#1.tup.index(el)
 tup = (2, 3, 1, 4)
 print(tup.index(1))  #returns the index of element
 
-#tup.count()
+#2.tup.count()
 tup = (2, 4, 6, 4, 6, 9, 7, 4)
 print(tup.count(6))  #count of occurences
 print(tup.count(4))
@@ -117,3 +117,4 @@ print(grade.count("D"))
 
 
 print("END OF THE DAY!!!")
+
