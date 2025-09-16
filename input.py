@@ -5,7 +5,7 @@ print("Day4")
 # int(input) -> int
 # float(input) -> float
 
-#input("enter you name:") #Shlaghya
+input("enter you name:") #Shlaghya
 
 user = input("enter you name:")
 user2 = input("enter your age:")
@@ -45,6 +45,7 @@ b  = int(input("enter the second number: "))
 # avg = num1 + num2 / 2
 
 print("average is : " , (a+b)/2 )   
+
 
 
 
