@@ -12,9 +12,9 @@ student = {
     }
 }
 
-# print(student.keys())  #nested dictionaries
-# print(tuple(student.keys()))  #the keys will be inside parenthisis ()
-# print(len(student))  #output=2
+print(student.keys())  #nested dictionaries
+print(tuple(student.keys()))  #the keys will be inside parenthisis ()
+print(len(student))  #output=2
 
 info = {
     "key" : "value",
@@ -27,10 +27,10 @@ info = {
     "marks": 93.4
      }
 
-# print(info.keys())
-# print(list(info.keys())) #the keys will be inside [..]
-# print(len(info))  #output=8          #to find total no.of keys
-# print(len(list(info.keys())))        #function inside function
+print(info.keys())
+print(list(info.keys())) #the keys will be inside [..]
+print(len(info))  #output=8          #to find total no.of keys
+print(len(list(info.keys())))        #function inside function
 
 # 2. myDict.values()
 month = {
@@ -39,7 +39,7 @@ month = {
     "march" : 31
 }
 
-# print(list(month.values())) 
+print(list(month.values())) 
 
 # 3. myDict.items()  returns key value pairs in tuple
 
@@ -49,10 +49,10 @@ summer = {
     "june" : 30
 }
 
-# print(tuple(summer.items()))
+print(tuple(summer.items()))
 
-# pairs = list(summer.items()) 
-# print(pairs[1])  
+pairs = list(summer.items()) 
+print(pairs[1])  
 
 # 4. myDict.get(key) -> returns value according to key
 
@@ -62,9 +62,9 @@ monsoon ={
     "sept" : 30
 }
 
-# print("BEFORE")
-# print(monsoon["octo"]) #error
-# print("AFTER")         #it will not print this
+print("BEFORE")
+print(monsoon["octo"]) #error
+print("AFTER")         #it will not print this
 
 
 print(monsoon.get("sept")) 
@@ -94,6 +94,7 @@ print(monsoon)
 
 
 #practice this methods 
+
 
 
 
