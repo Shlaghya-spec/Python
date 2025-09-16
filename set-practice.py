@@ -24,21 +24,21 @@ print("No.of classrooms: " , len(subjects))
 #3. enter marks from user store it in dict.
 
 #start with empty dict 
-# marks ={}
+marks ={}
 
-# n = input("enter your name:")
-# marks.update({"name" : n })
+n = input("enter your name:")
+marks.update({"name" : n })
 
-# x = int(input("enter the phy: "))
-# marks.update({"phy" : x}) 
+x = int(input("enter the phy: "))
+marks.update({"phy" : x}) 
 
-# y = int(input("enter the chem: "))
-# marks.update({"chem" : y}) 
+y = int(input("enter the chem: "))
+marks.update({"chem" : y}) 
 
-# z = int(input("enter the maths: "))
-# marks.update({"maths" : z}) 
+z = int(input("enter the maths: "))
+marks.update({"maths" : z}) 
 
-# print(marks) 
+print(marks) 
 
 #3. find out a way to store 9 and 9.0 as seaprate values . Use diff data types
 
@@ -50,3 +50,4 @@ val = {
     ("int" , 9)
 }
 print(val)
+
