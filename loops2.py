@@ -64,10 +64,50 @@ while i <= 9:
     print(n * i)
 
 print("end") 
+
+#qs print the numbers in the list 
+
+nums = [ 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+idx = 0
+while idx < len(nums):
+    print(nums[idx])
+    idx += 1
+
+print(nums[4]) #print the value which is on 4th index
+
+authors = [ "Sudha Murty", "Arundhati Roy", "Agatha Cristie", "Chitra Banerjee", "Shrishti Chaudhary"]
+
+a = 0
+while a < len(authors):
+    print(authors[a])
+    a += 1
+
+print("dive into reading :)") 
+
+#qs5 search for a number x in tuple using loop
+
+numb = (1, 5, 8, 12, 25, 28, 35, 39, 44, 52, 59, 35)
+
+x = int(input("enter number:"))
+
+i = 0
+while i < len(numb):
+    if(numb[i] == x):
+        print("FOUND at index", i)
+        print("number is: ", x , "at index: ", i) 
+        break      #it will terminate the loop as soons as search element is found
+    else:
+        print("searching...")
+        
+    i += 1
+
+print("Number not found")
     
 
     
     
+
 
 
 
