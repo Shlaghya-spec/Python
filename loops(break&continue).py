@@ -15,7 +15,7 @@ while i < len(numb):
         print("number is: ", x , "at index: ", i) 
         break      #it will terminate the loop as soons as search element is found
     else:
-        print("searching...")
+        print("searching....")
         
     i += 1
 
@@ -53,5 +53,6 @@ while i <= 15:
         continue
     print(i)
     i += 1
+
 
 
